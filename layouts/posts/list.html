@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+    
+<article>
+	<header>
+	    <h1 class="is-center"> All Posts</h1>
+    </header>
+    <!-- A wrapper for all the blog posts -->
+    {{ range .Paginator.Pages }}
+        {{ partial "post.html" . }}
+    {{ end }}
+    <footer>
+    {{ partial "pagination.html" . }}
+    </footer>
+</article>
+{{ partial "analytics.html" . }}
+</body>
+</html>

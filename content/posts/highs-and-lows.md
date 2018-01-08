@@ -1,12 +1,14 @@
 ---
 title: Highs and lows
 draft: false
-date: 2017-11-16T19:44:00Z
-author: vanessa
+leg: Mindello to St Lucia
+date: 2017-11-19T19:44:00Z
+author: Richard
 lat: 19°211
 long: 21°433
 slat: 19.35
 slong: -21.71667
+coverphoto: highs-and-lows.jpg
 ---
 The past 24 hours have been a bit of a rollercoaster, perfectly
 encompassing the highs and lows of sailing. On the plus side, yesterday
@@ -34,7 +36,7 @@ and then tried to hoist it on a spare halyard, but it got in a tangle and
 fell into the sea again (I fear our Blue Water Runner may be taking
 its name a little too literally). Once more we wrestled it out of the water
 although this time it brought with it bucketfuls of water and a teeny
-fish (which Vanessa subsequently sat on). We decided to deal with it in the
+fish (which Richard subsequently sat on). We decided to deal with it in the
 daylight and so lashed the sail to the guardrail and gave it a
 firm talking to about which element it was designed for, and that we still
 had the receipt if it continued to misbehave. We then spent the

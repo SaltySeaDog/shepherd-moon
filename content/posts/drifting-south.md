@@ -1,12 +1,14 @@
 ---
 title: Drifting south
 draft: false
-date: 2017-11-16T19:44:00Z
-author: vanessa
+leg: Mindello to St Lucia
+date: 2017-11-22T19:44:00Z
+author: Richard
 lat: 19°211
 long: 21°433
 slat: 19.35
 slong: -21.71667
+coverphoto: IMG_0100.JPG
 ---
 Yesterday started with a quick trip to the foredeck in the pitch black to
 re-tether the infamous Blue Water Runner. The ropes that hold the

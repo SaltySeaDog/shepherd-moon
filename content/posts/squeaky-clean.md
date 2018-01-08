@@ -1,12 +1,14 @@
 ---
 title: Squeaky clean
 draft: false
-date: 2017-11-16T19:44:00Z
-author: vanessa
+leg: Mindello to St Lucia
+date: 2017-11-23T19:44:00Z
+author: richard
 lat: 19°211
 long: 21°433
 slat: 19.35
 slong: -21.71667
+coverphoto: _NIC0804.JPG
 ---
 How to judge a day? Yesterday was a great success on the domestic front. We
 ran the water maker for two hours and so got our water

@@ -1,12 +1,14 @@
 ---
 title: Sailing has its ups and downs
 draft: false
+leg: Mindello to St Lucia
 date: 2017-11-20T16:34:00Z
-author: vanessa
+author: Richard
 lat: 16°122
 long: 34°133
 slat: 16.20167
 slong: -34.22333
+coverphoto: _NIC0585.JPG
 ---
 There are two very different strategies being adopted by
 the fleet. Some are choosing to stay north close to the

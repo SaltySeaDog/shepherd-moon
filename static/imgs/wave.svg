@@ -12,7 +12,7 @@
    version="1.1"
    id="svg11"
    sodipodi:docname="wave.svg"
-   inkscape:version="0.92.0 r15299">
+   inkscape:version="0.91 r13725">
   <metadata
      id="metadata15">
     <rdf:RDF>
@@ -26,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
+     pagecolor="#7a7a7a"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -34,16 +34,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
      id="namedview13"
      showgrid="false"
      inkscape:pagecheckerboard="true"
-     inkscape:zoom="0.7525"
-     inkscape:cx="907.86109"
-     inkscape:cy="-145.38831"
+     inkscape:zoom="0.58821755"
+     inkscape:cx="210.86194"
+     inkscape:cy="61.104534"
      inkscape:window-x="-8"
-     inkscape:window-y="-7"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg11"
      fit-margin-top="0"
@@ -56,16 +56,16 @@
        id="a"
        x1="281.42523"
        x2="281.42523"
-       y1="-61.683872"
+       y1="-0.78874451"
        y2="562.84937"
-       gradientTransform="matrix(-0.88833548,0,0,0.17766709,500,1.9498188e-4)"
+       gradientTransform="matrix(-0.61649662,0,0,0.17766709,346.99538,1.9498188e-4)"
        gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#57BBC1"
          stop-opacity=".25"
          offset="0%"
          id="stop2"
-         style="stop-color:#ffffff;stop-opacity:0.25" />
+         style="stop-color:#ffffff;stop-opacity:0.66455698" />
       <stop
          stop-color="#015871"
          offset="100%"
@@ -74,8 +74,10 @@
     </linearGradient>
   </defs>
   <path
-     d="M 499.99843,61.11119 C 402.8125,61.11119 371.90688,-0.12606702 246.5625,1.9498188e-4 121.5625,1.9498188e-4 90.3125,61.11119 0,61.11119 V 100 h 500 c 0,0 -0.003,-24.24238 -0.003,-38.88881 z"
+     d="M 199.99937,61.11119 C 161.125,61.11119 148.76275,-0.12606702 98.625002,1.9498188e-4 48.625001,1.9498188e-4 36.125,61.11119 0,61.11119 L 0,100 l 200,0 c 0,0 -0.001,-24.24238 -0.001,-38.88881 z"
      id="path9"
      inkscape:connector-curvature="0"
-     style="fill:url(#a);fill-rule:evenodd;stroke-width:1" />
+     style="fill:#ffffff;fill-rule:evenodd;stroke-width:1"
+     inkscape:export-xdpi="812.79999"
+     inkscape:export-ydpi="812.79999" />
 </svg>

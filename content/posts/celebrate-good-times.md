@@ -1,12 +1,15 @@
 ---
 title: Celebrate good times
 draft: false
+leg: Mindello to St Lucia
 date: 2017-11-27T13:47:00Z
-author: vanessa
+author: richard
 lat: 14°566
 long: 46°188
 slat: 14.94667
 slong: -46.30667
+coverphoto: _NIC0733.JPG
+leg: Mindello to St Lucia
 ---
 Yesterday we celebrated passing the halfway mark. For those paying attention you will know that we passed the halfway stage on 
 Saturday evening but we didn't want to jump the gun. That would be like opening your Christmas presents on Christmas Eve, which, as 

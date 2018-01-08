@@ -1,12 +1,14 @@
 ---
 title: The Great Atlantic Bake Off
 draft: false
-date: 2017-11-23T21:40:00Z
-author: vanessa
+leg: Mindello to St Lucia
+date: 2017-11-25T21:40:00Z
+author: Richard
 lat: 14°322
 long: 38°177
 slat: 14.54333
 slong: -38.28667
+coverphoto: _NIC0684.JPG
 ---
 Yesterday was a day of multiple sail changes, as the wind shifted between
 southeast to east and we swapped between the gennaker

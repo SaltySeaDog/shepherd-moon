@@ -1,1 +1,79 @@
-<div></div>
+{{ if gt .Paginator.TotalPages 1 }}
+
+{{ $singleAdj := 2 }}
+{{ $paginatePath := "page/" }}
+
+{{ $doubleAdj := (mul $singleAdj 2) }}
+
+<div class="button-container pagination">
+  {{ if lt (sub $.Paginator.PageNumber $doubleAdj) 1 }}
+    {{ $.Scratch.Set "start" 1 }}
+    {{ if gt (add 1 $doubleAdj) $.Paginator.TotalPages }}
+      {{ $.Scratch.Set "end" $.Paginator.TotalPages }}
+    {{ else }}
+      {{ $.Scratch.Set "end" (add $doubleAdj 1) }}
+    {{ end }}
+  {{ else if gt $.Paginator.PageNumber (sub $.Paginator.TotalPages $doubleAdj) }}
+    {{ $.Scratch.Set "start" (sub $.Paginator.TotalPages $doubleAdj) }}
+    {{ $.Scratch.Set "end" $.Paginator.TotalPages }}
+  {{ else }}
+    {{ $.Scratch.Set "start" (sub $.Paginator.PageNumber $singleAdj) }}
+    {{ $.Scratch.Set "end" (add $.Paginator.PageNumber $singleAdj) }}
+  {{ end }}
+  {{ if gt ($.Scratch.Get "start") 1 }}
+  <a href="{{ $.Permalink }}">
+	  <div class="post-button">
+	  	<i class="icon-left-open"></i><i class="icon-left-open" id="icon-left-double"></i>
+	  </div>
+  </a>
+  {{ end }}
+  {{ if and (.Paginator.HasPrev) (eq .Paginator.PageNumber 2) }}	
+  <a href="/{{ $.Permalink }}">
+	  <div class="post-button">
+	  	<i class="icon-left-open"></i>
+	  </div>
+  </a>
+  {{ else if .Paginator.HasPrev}}
+  <a href="{{ $.Permalink }}{{ $paginatePath }}{{ sub .Paginator.PageNumber 1 }}/">
+	  <div class="post-button">
+	  	<i class="icon-left-open"></i>
+	  </div>
+  </a>
+  {{ end }}
+  {{ range $element := (seq ($.Scratch.Get "start") ($.Scratch.Get "end")) }}
+    {{ if eq $element $.Paginator.PageNumber }}
+    <div class="post-button" id="post-button-active">
+    	{{ $element }}
+    </div>
+    {{ else if eq $element 1 }}
+    <a href="{{ $.Permalink }}">
+		<div class="post-button">
+	    	{{ $element }}
+	    </div>
+	</a>
+    {{ else }}
+    <a href="{{ $.Permalink }}{{ $paginatePath }}{{ $element}}/">
+		<div class="post-button">
+	    	{{ $element }}
+	    </div>
+	</a>
+    {{ end }}
+  {{ end }}
+
+  {{ if .Paginator.HasNext }}
+  
+  <a href="{{ $.Permalink }}{{ $paginatePath }}{{ add .Paginator.PageNumber 1 }}/">
+  	<div class="post-button">
+  		<i class="icon-right-open"></i>
+  	</div>
+  </a>
+  {{ end }}
+  {{ if lt ($.Scratch.Get "end") $.Paginator.TotalPages }}
+	  <a href="{{ $.Permalink }}{{ $paginatePath }}{{ $.Paginator.TotalPages }}/">
+	  	<div class="post-button">
+	  		<i class="icon-right-open"></i><i class="icon-right-open" id="icon-right-double"></i>
+	  	</div>
+	</a>
+  {{ end }}
+</div>
+{{ end }}

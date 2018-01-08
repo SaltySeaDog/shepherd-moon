@@ -1,10 +1,11 @@
 baseurl = "http://www.yachtshepherdmoon.com"
 languageCode = "en-gb"
 title = "Yacht Shepherd Moon"
-Paginate = 50
+Paginate = 5
 
 
 
 [taxonomies]
   category = "categories"
   author = "author"
+  leg = "legs"

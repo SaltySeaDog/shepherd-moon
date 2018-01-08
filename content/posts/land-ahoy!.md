@@ -1,12 +1,14 @@
 ---
 title: Land ahoy!
 draft: false
+leg: Mindello to St Lucia
 date: 2017-12-04T12:25:00Z
 author: Richard
 lat: 14°099
 long: 60°544
 slat: 14.15833
 slong: -60.90167
+coverphoto: land-ahoy.jpg
 ---
 Well we made it, or we've very nearly made it. We are 
 within a stone's throw of St Lucia (or at least a stone 

@@ -1,12 +1,14 @@
 ---
 title: Hallucinations
 draft: false
-date: 2017-11-16T19:44:00Z
-author: vanessa
+leg: Mindello to St Lucia
+date: 2017-11-17T19:44:00Z
+author: Richard
 lat: 19°211
 long: 21°433
 slat: 19.35
 slong: -21.71667
+coverphoto: IMG_0042.JPG
 ---
 I was on watch this morning when a large splash on the horizon caught
 my eye. At first I assumed it was a breaking wave, although on a calm
@@ -37,7 +39,7 @@ ending their fishy lives mid-leap.
 
 The other entertainment over the past 24-hours has been a fly cull. We
 seem to have acquired a sizable swarm of flies during our stay in
-Mindelo. Vanessa has been chasing round the cabin with a can of fly
+Mindelo. Richard has been chasing round the cabin with a can of fly
 spray, but I'm not sure that is very sporting. Instead I adopt a more
 traditional method. Armed with just a tatty tea towel I stalk around
 the cabin, with the silence of the chase only punctuated by an

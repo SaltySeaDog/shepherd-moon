@@ -1,12 +1,14 @@
 ---
 title: Going for a dip
 draft: false
+leg: Mindello to St Lucia
 date: 2017-11-29T13:10:00Z
 author: Richard
 lat: 14°366
 long: 50°455
 slat: 14.60167
 slong: -50.75167
+coverphoto: IMG_0094.JPG
 ---
 Yesterday was panning out to be a bit of a dull day (from an activity rather than weather perspective) and I was getting increasingly 
 worried about what I could write about in today's blog. We had been sailing all night with the Blue Water Runner, and making great 

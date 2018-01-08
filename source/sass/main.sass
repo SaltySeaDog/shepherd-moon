@@ -12,12 +12,30 @@ $s-light-color: mix($secondary-color, #fff, 80%)
 $s-lighter-color: mix($secondary-color, #fff, 30%)
 $s-lightest-color: mix($secondary-color,#fff, 10%)
 
-@font-face
-  font-family: 'Governor'
-  src: url('../font/governor.ttf')
-  font-weight: normal
-  font-style: normal
 
+$header-fonts:  "Poppins", "Franklin Gothic Medium", "Impact", sans-serif
+$body-fonts: 'Quicksand', "Gill Sans", "Tahoma", sans-serif
+
+@font-face
+  font-family: 'Poppins'
+  src: url('../font/Poppins/Poppins-Regular.ttf')
+  font-weight: 400
+@font-face
+  font-family: 'Poppins'
+  src: url('../font/Poppins/Poppins-Light.ttf')
+  font-weight: 200
+@font-face
+  font-family: 'Poppins'
+  src: url('../font/Poppins/Poppins-SemiBold.ttf')
+  font-weight: 500  
+@font-face
+  font-family: 'Poppins'
+  src: url('../font/Poppins/Poppins-Bold.ttf')
+  font-weight: 700
+@font-face
+  font-family: 'Poppins'
+  src: url('../font/Poppins/Poppins-ExtraBold.ttf')
+  font-weight: 900
 
 *
   -webkit-box-sizing: border-box
@@ -29,18 +47,20 @@ body
   background-color: $lightest-color
 
 h1, label
-  font-family: 'Governor', "Franklin Gothic Medium", "Impact", sans-serif
+  font-family: $header-fonts
+  font-weight: 900
+  text-transform:   uppercase
   color: $shade-color 
 
 html, button, input, select, textarea, h2, .pure-g [class*="pure-u"]
-  font-family: 'Quicksand', "Gill Sans", "Tahoma", serif
+  font-family: $body-fonts
   color: $tone-color
 
 article
-  margin-top: 90px
+  margin-top: 4rem !important
   
 article.no-margin
-  margin-top: 70px
+  margin-top: 3.5rem !important
 a
   text-decoration: underline solid
   color: $shade-color
@@ -99,7 +119,6 @@ a
   font-weight: 700
   color: white
   line-height: 1em
-  font-family: "Governor"
   margin-bottom: 0px
   img
     width: 20%
@@ -111,8 +130,9 @@ a
   color: white
   letter-spacing: 0.05em
   opacity: 0.7
-  font-weight: 700
+  font-weight: 400
   margin-top: 0px
+  font-family: $header-fonts
 
 .crew-role
   display: block
