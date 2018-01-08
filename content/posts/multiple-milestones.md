@@ -1,12 +1,14 @@
 ---
 title: Multiple milestones
 draft: false
+leg: Mindello to St Lucia
 date: 2017-11-26T13:44:00Z
-author: vanessa
+author: Richard
 lat: 14°566
 long: 46°188
 slat: 14.94833
 slong: -46.30167
+coverphoto: multiple-milestones.jpg
 ---
 Yesterday saw us pass two major milestones. The first of these was going through the 1,000-mile mark, that's 1,000 miles travelled since 
 leaving Cape Verde. As well as being significant in itself, it also means we now qualify for full membership of the Ocean Cruising Club 

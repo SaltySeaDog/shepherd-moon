@@ -1,39 +1,38 @@
-<section class="post-group">
-    {{ partial "authorphoto.html" . }}
-    <div class="post-detail post-date">
-        <span class="post-detail-text">
-            <i class="icon-clock"></i>{{ .Date.Format "02 Jan 2006, 15:04" }}
-        </span>
-    </div>
-    <div class="post-detail post-location">
-        <a class="post-detail-text" href="https://www.google.com/maps/search/?api=1&query={{ .Params.lat }} , {{ .Params.long }}&zoom=4"><i class="icon-location-outline"></i></span><span class="post-location-short">{{ .Params.slat }}, {{ .Params.slong }}</span></a>
-    </div>
-    <div class="post-detail post-catagories">
-        {{ if isset .Params "categories" }}
-            {{ $baseUrl := .Site.BaseURL }}
-            {{ range .Params.categories }}
-                <a class="badge badge-pill" href="/categories/{{ . | urlize }}">
-                    <i class="icon-tag"></i> {{ . }}
-                </a> 
+<section class="post">
+    {{ if isset .Params "coverphoto" }}
+    <a class="image featured" href="{{ .Permalink }}" >
+        <img src="/imgs/covers/{{ .Params.coverphoto }}">
+    </a>
+    {{ end }}
+    <header>
+        <h3 class="Title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div class="post-details">  
+            <span class="post-detail-text">
+                <i class="icon-clock"></i>{{ .Date.Format "02 Jan 2006" }}
+            </span>
+            <span class="post-detail-text">
+                <i class="icon-user-outline"></i> {{ humanize .Params.author }}
+            </span>
+            <span class="post-detail-text">
+                <a class="" href="https://www.google.com/maps/search/?api=1&query={{ .Params.lat }} , {{ .Params.long }}&zoom=4"><i class="icon-location-outline"></i><span class="post-location-short">{{ .Params.leg }}</span></a>
+            </span>
+            
+        </div>
+    </header>
+    <div class="main">
+        <div class="post-content">
+            {{ if isset .Params "description" }}
+                <em class="post-description is-center">{{ .Params.description }}</em>
+                <br/>
             {{ end }}
-        {{ end }}
-    </div>
-    <div class="divider"></div>
-
-    <div class="post-title">
-        <a href="{{ .Permalink }}"><h2> {{ .Title }}</h2></a>
-    </div>
-
-    <div class="post-content">
-        {{ if isset .Params "description" }}
-            <em class="post-description is-center">{{ .Params.description }}</em>
-            <br/>
-        {{ end }}
-        {{ .Summary }}
-    </div>
-
-    <div class="post-continue">
-        <a href="{{ .Permalink }}"> Continue Reading <i class="icon-right-open"></i></a>
-    </div>
+            {{ .Summary }}
+        </div>
+        <div class="button-container">
+            <div class="post-button">
+              <a href="{{ .Permalink }}"> Continue Reading <i class="icon-right-open"></i></a>
+            </div>
+        </div>
+    </main>
+    
 
 </section>

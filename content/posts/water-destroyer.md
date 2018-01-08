@@ -1,6 +1,7 @@
 ---
 title: Water-destroyer
 draft: false
+leg: Mindello to St Lucia
 date: 2017-12-01T12:54:00Z
 author: Richard
 lat: 14°155

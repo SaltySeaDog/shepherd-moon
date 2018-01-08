@@ -1,12 +1,14 @@
 ---
 title: Squid marks
 draft: false
+leg: Mindello to St Lucia
 date: 2017-12-03T13:59:00Z
 author: Richard
 lat: 14°111
 long: 58°577
 slat: 14.18333
 slong: -58.95833
+coverphoto: squid-marks.jpg
 ---
 Yesterday morning our daughter made her way from her flat in London to Gatwick airport. The weather this past week has been freezing 
 in the UK, and there is talk of snow at Christmas. At around 10 a.m. she climbed on a plane and nine hours later she arrived in St Lucia to 

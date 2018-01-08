@@ -1,12 +1,14 @@
 ---
 title: Chocolate spanner
 draft: false
+leg: Mindello to St Lucia
 date: 2017-11-28T14:35:00Z
-author: vanessa
+author: Richard
 lat: 14°333
 long: 48°377
 slat: 14.55
 slong: -48.62333
+leg: Mindello to St Lucia
 ---
 Yesterday we woke to a very different kind of morning. There were ominous dark clouds on the horizon, obscuring the sunrise. Those 
 particular squalls dissipated before catching up with Shepherd Moon, and the day turned out to be a typical tradewind day. Clear blue 

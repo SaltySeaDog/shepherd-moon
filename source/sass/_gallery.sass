@@ -1,31 +1,12 @@
-.grid
+.my-gallery
   line-height: 0
   column-count: 1
   column-gap: 0px
+  margin-top: 70px
 
-  .container
-    width: 100% !important
-    height: auto
-    
-    .overlay
-        position: absolute
-        bottom: 0
-        left: 0
-        right: 0
-        background-color: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5), rgba(0,0,0,0.2), rgba(0,0,0,0))
-        overflow: hidden
-        width: 100%
-        transform: .5s ease
-        opacity: 0
-    &:hover .overlay
-      opacity: 1
-
-    .gallery-description
-        bottom: 0.5em
-        right: 1em
-        color: white
-
-    img
+  figure
+    margin: 0
+    a img
       width: 100% !important
       height: auto
   @media screen and (min-width: 24em)

@@ -1,15 +1,17 @@
 <nav class="fixed-header">
   <div class="nav-home">
     <a href="{{.Site.BaseURL }}">
-      <img class="nav-logo" alt="" src="/imgs/stamp-logo.png">
-      <img class="nav-text-logo" alt="Shepherd Moon" src="/imgs/text-logo.png">
+      <img class="nav-logo" alt="" src="/imgs/img-logo.png">
       <div class="nav-text">Yacht Shepherd Moon</div>
     </a>
   </div>
-  
-  <ul class="nav-bar">
-    <li><a href="/">About</a></li>
-    <li class="{{ if eq .Section "gallery"}}page-active{{end}}"><a href="/gallery">Gallery</a></li>
-    <li class="{{ if eq .Section "posts"}}page-active{{end}}"><a href="/posts">Blog</a></li>
-  </ul> 
+  <div class="nav-item">
+    <a href="/">About</a>
+  </div>
+  <div class="nav-item {{ if eq .Section "gallery"}}page-active{{end}}">
+    <a href="/gallery">Gallery</a>
+  </div>
+  <div class="nav-item {{ if eq .Section "posts"}}page-active{{end}}">
+    <a href="/posts">Blog</a>
+  </div>
 </nav>

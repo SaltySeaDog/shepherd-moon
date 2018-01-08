@@ -1,0 +1,58 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+    
+<article class="post-single">
+    {{ if isset .Params "coverphoto" }}
+    <!-- A wrapper for all the blog posts -->
+    <div class="image">
+        <img src="/imgs/covers/{{ .Params.coverphoto }}">
+    </div>
+    {{ end }}
+    <div class="post-content">
+        <header>
+            <div class="post-top">
+                <h1 class="post-title is-center">{{ .Title }}</h1>
+                <div class="post-details">  
+                    <span class="post-detail-text">
+                        <i class="icon-clock"></i>{{ .Date.Format "02 Jan 2006" }}
+                    </span>
+                    <span class="post-detail-text">
+                        <i class="icon-user-outline"></i> {{ humanize .Params.author }}
+                    </span>
+                    <span class="post-detail-text">
+                        <a class="" href="https://www.google.com/maps/search/?api=1&query={{ .Params.lat }} , {{ .Params.long }}&zoom=4"><i class="icon-location-outline"></i><span class="post-location-short">{{ .Params.leg }}</span></a>
+                    </span>
+                </div>
+                <div class="wavey-bottom"></div>
+            </div>
+        </header>
+        <main class="post-body">
+            <div class="post-text">
+              {{ if isset .Params "description" }}
+                    <div class="post-description is-center">{{ .Params.description }}</div>
+                {{ end }}
+
+                {{ .Content }}
+            </div>
+        </main>
+        <footer>
+            <div class="button-container">
+                <div class="post-button">
+                    {{ if .PrevInSection}}
+                        <a href="{{ .PrevInSection.Permalink }}"><i class="icon-left-open"></i> Previous Article </a>
+                    {{ end }}
+                </div>
+                <div class="post-button">
+                  <a href="../"><i class="icon-home-outline"></i> Back to Blogs</a>
+                </div>
+                <div class="post-button">
+                    {{ if .NextInSection}}
+                        <a href="{{ .NextInSection.Permalink }}"> Next Article <i class="icon-right-open"></i></a>
+                    {{ end }}
+                </div>
+            </div>
+        </footer>
+</article>
+{{ partial "analytics.html" . }}
+</body>
+</html>

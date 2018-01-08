@@ -1,12 +1,14 @@
 ---
 title: Shoal mates
 draft: false
-date: 2017-11-23T21:40:00Z
-author: vanessa
+leg: Mindello to St Lucia
+date: 2017-11-24T21:40:00Z
+author: richard
 lat: 14°322
 long: 38°177
 slat: 14.54333
 slong: -38.28667
+coverphoto: penguin-sanctuary.jpeg
 ---
 Still no wind! Much of yesterday was spent ghosting along in just 4-5 knots
 of breeze, and then when that got too frustrating, we would
@@ -40,7 +42,7 @@ night before Jacob had mentioned that there was a small fish swimming
 alongside the boat, and then yesterday afternoon, there it was
 again. It's only about 20cm long with a lovely yellow tail and it seems to
 have to work very hard to keep up with the boat, but it's still there.
-Small fish normally live in shoals and so I commented to Jacob and Vanessa
+Small fish normally live in shoals and so I commented to Jacob and Richard
 that it might have lost its companions. Jacob's immediate
 response was, "perhaps we're its shoal mate!" What a lovely thought.
 

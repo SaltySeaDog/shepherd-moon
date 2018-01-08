@@ -1,12 +1,14 @@
 ---
 title: It's all relative
 draft: false
+leg: Mindello to St Lucia
 date: 2017-12-02T13:20:00Z
 author: Richard
 lat: 14°188
 long: 56°544
 slat: 14.315
 slong: -56.90833
+coverphoto: its-all-relative.jpg
 ---
 We haven't actively broken anything in the last 24-hours but we have noticed that something that wasn't broken 10 days ago, now 
 seems to be broken. We keep seeing one of the other ARC+ boats (Vega) on the horizon, but when we call them on the VHF radio, we 

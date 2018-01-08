@@ -1,5 +1,11 @@
-<ul class="nav-bar">
-    <li class="{{ if eq .Section "home"}}page-active{{end}}" ><a href="/">About</a></li>
-    <li class="{{ if eq .Section "gallery"}}page-active{{end}}"><a href="/gallery">Gallery</a></li>
-    <li class="{{ if eq .Section "posts"}}page-active{{end}}"><a href="/posts">Blog</a></li>
-  </ul> 
+<nav class="inline-nav">
+  <div class="nav-item">
+    <a href="/">About</a>
+  </div>
+  <div class="nav-item {{ if eq .Section "gallery"}}page-active{{end}}">
+    <a href="/gallery">Gallery</a>
+  </div>
+  <div class="nav-item {{ if eq .Section "posts"}}page-active{{end}}">
+    <a href="/posts">Blog</a>
+  </div>
+</nav>
