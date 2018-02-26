@@ -37,19 +37,19 @@
         </main>
         <footer>
             <div class="button-container">
-                <div class="post-button">
-                    {{ if .PrevInSection}}
+                {{ if .PrevInSection}}
+                    <div class="post-button">
                         <a href="{{ .PrevInSection.Permalink }}"><i class="icon-left-open"></i> Previous Article </a>
-                    {{ end }}
-                </div>
+                    </div>
+                {{ end }}
                 <div class="post-button">
                   <a href="../"><i class="icon-home-outline"></i> Back to Blogs</a>
                 </div>
-                <div class="post-button">
-                    {{ if .NextInSection}}
+                {{ if .NextInSection}}
+                    <div class="post-button">
                         <a href="{{ .NextInSection.Permalink }}"> Next Article <i class="icon-right-open"></i></a>
-                    {{ end }}
-                </div>
+                    </div>
+                {{ end }}
             </div>
         </footer>
 </article>
