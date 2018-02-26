@@ -1,7 +1,7 @@
 ---
-title: Squeeky Clean
+title: A Deep Sea Cleaning
 draft: false
-date: 2018-02-26T15:51:43Z
+date: 2018-02-19T16:04:00Z
 author: Richard 
 leg: Galapagos to Marquesas 
 slat: -0.74893 
@@ -47,7 +47,7 @@ I retuned to the back of the boat to report progress, only to be told the good n
 
 shark that had been following the boat had now disappeared. My immediate reaction was 
 
-Shark! What shark? Apparently, they had tried to warn me with a couple of gentle tugs on 
+"Shark! What shark?" Apparently, they had tried to warn me with a couple of gentle tugs on 
 
 my rope but didn't want to panic me unnecessarily unless the shark got closer; it had been 
 
@@ -61,5 +61,5 @@ I had to go back and complete the other side with just a snorkel and deep breath
 
 more of a struggle, it did at least stop my mind from wandering to some of the more 
 
-gruesome scenes from Jaws. 
+gruesome scenes from *Jaws*. 
 
