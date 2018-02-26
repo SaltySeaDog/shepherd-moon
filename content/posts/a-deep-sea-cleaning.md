@@ -3,7 +3,7 @@ title: A Deep Sea Cleaning
 draft: false
 date: 2018-02-19T16:04:00Z
 author: Richard 
-leg: Galapagos to Marquesas 
+leg: Panama to Galapagos
 slat: -0.74893 
 slong: -90.30871 
 ---
