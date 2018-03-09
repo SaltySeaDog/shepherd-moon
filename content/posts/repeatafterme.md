@@ -1,0 +1,10 @@
+---
+title: Repeat after me
+draft: false
+date: 2018-03-09T02:00:04Z
+author: Richard 
+leg: Galapagos to Marquesas 
+slat: -7.26424 
+slong: -110.95375 
+---
+We are in the middle of nowhere. I've just checked the chart and we're now closer to Easter Island than the Galapagos, although to get there we'd have to do a sharp left turn. I've always wanted to go to Easter Island, but the World Cruising Routes book (aka "Destroyer of Dreams") says that the wind and the current are in the wrong direction and there's nowhere to stop when you get there. Sounds to me like they're sitting on the fence on that one.We haven't seen another boat in days, although we can see one of the fleet on our AIS (Automatic Information System) and so we know there's someone there over the horizon. Our link with the other boats is via our SSB (Single Side Band) radio, which, dependant on atmospheric conditions, has a range of over a thousand miles. However the reception is far from clear, and you have to listen hard through the crackles and warbles to understand what anyone is saying.The ladies of the fleet decided it would be a good idea to have there own "net" - a fixed time where they could chat on the SSB about the daily grind of life at sea. Since we are now heading to French Polynesia and have a number of French speaking ladies in the fleet, this has now morphed into a crash course in French. This is a great idea, but implementing it has been challenging at times. Yesterday the ladies were learning the phrases "I don't understand" and "please repeat it more slowly". Brigitte, a native French speaker was asked by the day's nominated teacher to say each phrase, and then the teacher would call on random boats to repeat. All started perfectly, as we heard Brigitte's perfect French crackle out of the speaker "Je ne comprends pas". The teacher then asked her to say the second phrase "please repeat it more slowly".  There was a pause and then, through the crackles, we heard Brigitte very slowly say "Je..ne.comprends...pas.".  Ah well, they say repetition is the key to learning.----------radio email processed by SailMailfor information see:  http://www.sailmail.com
