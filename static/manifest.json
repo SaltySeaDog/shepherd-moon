@@ -1,0 +1,14 @@
+{
+  "name": "Shepherd Moon",
+  "lang": "en-GB",
+  "start_url": "/#position",
+  "display": "standalone",
+  "theme_color": "#466083",
+  "icons": [
+    {
+      "src": "/static/img-logo.png",
+      "sizes": "3164x3164"
+    }
+  ],
+  "background_color": "#edeff3"
+}
